@@ -71,7 +71,6 @@ body {
 
 .contact-list {
     align-items: center;
-    margin-right: auto;
     gap: 40px;
 }
 
@@ -136,6 +135,8 @@ body {
 }
 
 .hero-title {
+    width: 492px;
+    margin: 0 auto 48px;
     font-weight: 500;
     font-size: 56px;
     line-height: 1.07;
@@ -190,8 +191,8 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
     color: var(--head-color);
-
 }
 
 .benefits-description {
@@ -202,12 +203,21 @@ body {
 
 .benefits-section {
     background-color: var(--background-color-white);
+    padding-bottom: 0;
 }
 
 .describe-section {
     background-color: var(--background-color-white);
 }
-
+.benefits-list {
+    display: flex;
+    gap: 24px;
+}
+.description-list {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 72px;
+}
 .section-title {
     text-align: center;
     font-weight: 500;
@@ -216,6 +226,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--head-color);
     text-transform: capitalize;
+    margin-bottom: 120px;
 }
 
 .section-title {
@@ -316,6 +327,9 @@ body {
 }
 
 .footer-description {
+    width: 264;
+    margin: 0 auto 72px;
+    margin-top: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.02em;
