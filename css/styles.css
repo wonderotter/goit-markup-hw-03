@@ -146,6 +146,7 @@ body {
 }
 
 .order-btn {
+    font-weight: 600;
     cursor: pointer;
     background: var(--brand-color);
     padding: 16px 32px;
@@ -252,6 +253,9 @@ body {
     margin-left: 64.5px;
 
 }
+.team-card:not(:last-child) {
+margin-right: 24px;
+} 
 
 .team-position {
     line-height: 1.5;
@@ -260,7 +264,22 @@ body {
     margin-top: 8px;
     margin-left: 68px;
 }
-
+.team-section {
+    background: var(--light-background-color);
+}
+.section-title-team{
+    margin-top: ;
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--head-color);
+    text-transform: capitalize;
+}
+.our-team {
+    margin-bottom: 72px;
+}
 .project-title {
     font-weight: 600;
     font-size: 20px;
@@ -327,8 +346,7 @@ body {
 }
 
 .footer-description {
-    width: 264;
-    margin: 0 auto 72px;
+    width: 264px;
     margin-top: 16px;
     letter-spacing: 0.02em;
     line-height: 1.5;
