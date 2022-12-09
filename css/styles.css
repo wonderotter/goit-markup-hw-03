@@ -53,6 +53,8 @@ body {
 .page-header {
     padding-top: 24px;
     padding-bottom: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
 }
 
@@ -60,13 +62,13 @@ body {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 15px;
 }
 
 .page-nav {
     display: flex;
     align-items: center;
     margin-right: auto;
-    gap: 40px;
 }
 
 .contact-list {
@@ -217,68 +219,51 @@ body {
 .description-list {
     display: flex;
     gap: 24px;
+}
+.section-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--head-color);
+    text-transform: capitalize;
     margin-bottom: 72px;
 }
-.section-title {
-    text-align: center;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: var(--head-color);
-    text-transform: capitalize;
-    margin-bottom: 120px;
-}
-
-.section-title {
-    text-align: center;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: var(--head-color);
-    text-transform: capitalize;
-}
-
 .team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--head-color);
-    width: 135px;
-    height: 24px;
-    text-align: center;
-    margin-top: 32px;
-    margin-left: 64.5px;
-
+    margin-bottom: 8px;
 }
 .team-card:not(:last-child) {
-margin-right: 24px;
+    margin-right: 24px;
+
 } 
+.team-card {
+    background: var(--background-color-white);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
 
 .team-position {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
-    margin-top: 8px;
-    margin-left: 68px;
 }
 .team-section {
     background: var(--light-background-color);
 }
-.section-title-team{
-    margin-top: ;
-    text-align: center;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: var(--head-color);
-    text-transform: capitalize;
-}
+
 .our-team {
     margin-bottom: 72px;
+}
+.team-wrapper {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: center;
 }
 .project-title {
     font-weight: 600;
@@ -299,6 +284,7 @@ margin-right: 24px;
 }
 
 .nav-btn {
+    padding: 12px 24px;
     font-weight: 500;
     cursor: pointer;
     line-height: 1.5;
@@ -360,21 +346,15 @@ margin-right: 24px;
     justify-content: space-between;
 }
 
+.project-wrapper {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    }
+
 .navigation-btns {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
     gap: 24px;
-    position: absolute;
-    width: 586px;
-    height: 48px;
-    left: 427px;
-    top: 168px;
+    justify-content: center;
+    margin-bottom: 72px;
 }
 
-.project-card {
-    margin-right: 24px;
-    margin-bottom: 48px;
-    margin-top: 48px;
-}
