@@ -261,9 +261,13 @@ body {
     margin-bottom: 72px;
 }
 .team-wrapper {
-    margin-top: 32px;
-    margin-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
     text-align: center;
+}
+.portfolio {
+    padding-bottom: 96px;
 }
 .project-title {
     font-weight: 600;
@@ -271,8 +275,12 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--head-color);
-    margin-top: 32px;
-    margin-left: 16px;
+}
+
+.project-card{
+    border: 0.5px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+    width: calc((100% - 48px) / 3);
 }
 
 .project-description {
@@ -280,7 +288,6 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-text-color);
     margin-top: 8px;
-    margin-left: 16px;
 }
 
 .nav-btn {
@@ -343,13 +350,15 @@ body {
 .project-table {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    row-gap: 48px;
+    column-gap: 24px;
 }
 
 .project-wrapper {
-    margin-top: 32px;
-    margin-bottom: 32px;
-    }
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+}
 
 .navigation-btns {
     display: flex;
